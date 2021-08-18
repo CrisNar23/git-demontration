@@ -5,3 +5,7 @@ export const reverseSentencesDB = (req, res) => {
 export const reverseSentencesDB2 = (req, res) => {
   res.status(200).json("From reverse sentences DB 2");
 };
+
+export const reverseSentencesDB3 = (req, res) => {
+  res.status(200).json("From reverse sentences DB 3");
+};
