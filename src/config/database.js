@@ -3,7 +3,7 @@ import mongoose from 'mongoose'
 // Database connection and configuration
 const dbConnection = async () => {
   try {
-    await mongoose.connect(process.env.DB_MONGO1, {
+    await mongoose.connect(process.env.DB_MONGO, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
       useCreateIndex: true,
